@@ -81,17 +81,6 @@ class BettingSystem:
 app = Flask(__name__)
 
 game = BettingSystem()
-# cavs = uuid4()
-# celtics = uuid4()
-# test_betting = BettingSystem()
-# james = Bettor("James")
-# jonny = Bettor("Jonny")
-# test_spread = Spread(6, celtics)
-# test_game = Game(cavs, celtics, 0,)
-# test_spread = Spread(6, celtics)
-# test_open_bet = Bet(james, None, 10, test_game, test_spread)
-
-# game.place_bet(test_open_bet)
 
 @app.route("/open_bets", methods=['GET'])
 def open_bets():
